@@ -21,9 +21,6 @@ override.tf.json
 # Terraform plan output
 *.tfplan
 
-# Sensitive variable definitions (if you use these)
-*.tfvars
-
 # Optional: IDE or editor specific files
 .vscode/
 .idea/
