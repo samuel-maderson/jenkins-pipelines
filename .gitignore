@@ -29,3 +29,5 @@ terraform.tfvars
 .vscode/
 .idea/
 *.swp
+
+*plan
