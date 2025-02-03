@@ -22,7 +22,6 @@ override.tf.json
 *.tfplan
 
 # Sensitive variable definitions (if you use these)
-terraform.tfvars
 *.tfvars
 
 # Optional: IDE or editor specific files
