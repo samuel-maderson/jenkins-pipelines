@@ -12,6 +12,7 @@ terraform.tfstate.backup
 # Crash log files
 crash.log
 
+*.pem
 # Override files (these are usually generated locally)
 override.tf
 override.tf.json
