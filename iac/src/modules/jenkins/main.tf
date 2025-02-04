@@ -44,6 +44,10 @@ resource "aws_instance" "jenkins" {
               sudo yum install -y jenkins
               sudo systemctl enable jenkins
               sudo systemctl start jenkins
+              sudo yum install -y docker
+              sudo systemctl enable --now docker
+              sudo usermod -aG docker jenkins
+              sudo systemctl restart jenkins
               EOF
 
   tags = {
